@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": "@denkristoffer/eslint-config",
+  "overrides": [
+    {
+      "files": ["next.config.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ]
+}

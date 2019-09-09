@@ -1,0 +1,17 @@
+{
+  "env": {
+    "DATA_URL": "@data_url"
+  },
+  "name": "hmpatitw",
+  "regions": ["sfo1"],
+  "routes": [
+    {
+      "src": ".*",
+      "headers": {
+        "Cache-Control": "s-maxage=360, max-age=0",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      }
+    }
+  ],
+  "version": 2
+}

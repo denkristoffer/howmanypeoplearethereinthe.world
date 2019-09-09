@@ -1,0 +1,40 @@
+{
+  "name": "@denkristoffer/hmpatitw",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "deploy": "yarn now",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint --ext .ts,.tsx .",
+    "start": "next start",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@vx/curve": "^0.0.189",
+    "@vx/glyph": "^0.0.190",
+    "@vx/responsive": "^0.0.189",
+    "@vx/scale": "^0.0.190",
+    "@vx/shape": "^0.0.190",
+    "isomorphic-unfetch": "3.0.0",
+    "next": "9.0.4",
+    "node-fetch": "2.6.0",
+    "polished": "^3.4.1",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "7.3.3",
+    "@denkristoffer/eslint-config": "4.0.0",
+    "@types/node": "10.14.15",
+    "@types/node-fetch": "2.5.0",
+    "@types/react": "16.9.2",
+    "eslint": "6.2.1",
+    "now": "16.1.2",
+    "prettier": "1.18.2",
+    "typescript": "3.5.3"
+  }
+}
