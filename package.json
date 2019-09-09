@@ -27,7 +27,7 @@
     "react-dom": "16.9.0"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "7.3.3",
+    "@babel/preset-typescript": "7.6.0",
     "@denkristoffer/eslint-config": "4.0.0",
     "@types/node": "10.14.15",
     "@types/node-fetch": "2.5.0",
