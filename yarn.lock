@@ -963,10 +963,10 @@
     prop-types "^15.6.1"
     resize-observer-polyfill "1.5.0"
 
-"@vx/scale@^0.0.190":
-  version "0.0.190"
-  resolved "https://registry.yarnpkg.com/@vx/scale/-/scale-0.0.190.tgz#f2799a7e1b29aed9626c4f0ceab0a330469c0d90"
-  integrity sha512-oxXVIuxdjZxAftmAtT+zkveTAGUbjCS1cOZr2h14mJ7ODWUMY6RLLPA8PHfXfmRhnCLhNLGo6ijXWgu20I4ruA==
+"@vx/scale@^0.0.192":
+  version "0.0.192"
+  resolved "https://registry.yarnpkg.com/@vx/scale/-/scale-0.0.192.tgz#4e13b6eea852de37cd3c95a7c91ed744f63f5692"
+  integrity sha512-jcRtgHzNI1YgQStxn87xgmRUD5RRAalIlswlMgcs6PnJlU4AhJIbvyzOOogWUi+Va/GY6omIVEdK9WpRqsxQPg==
   dependencies:
     d3-scale "^2.2.2"
 
