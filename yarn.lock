@@ -924,17 +924,10 @@
     lodash.unescape "4.0.1"
     semver "^6.2.0"
 
-"@vx/curve@0.0.192":
+"@vx/curve@0.0.192", "@vx/curve@^0.0.192":
   version "0.0.192"
   resolved "https://registry.yarnpkg.com/@vx/curve/-/curve-0.0.192.tgz#be64214e1ca5e6c5f66a22db9c747de3146f8dbd"
   integrity sha512-NCijtrq0k+t2eWFhbsPEYGXTQfhdHB/l+1MqRUXM6pyl5k/HcEyGEV4C+H3M9l2cn8THegs/2DUKnUDZp2wTng==
-  dependencies:
-    d3-shape "^1.0.6"
-
-"@vx/curve@^0.0.189":
-  version "0.0.189"
-  resolved "https://registry.yarnpkg.com/@vx/curve/-/curve-0.0.189.tgz#0d1961a7dca69b65cdc1d5d325c75290e905771f"
-  integrity sha512-wD4OhvlcURIDjnWvaGurWqMEseqUoI4Y3vtDXS7c4VmdhkX5O4y6PVQaTkg2I417jMkOz6kU+Xc50AzB0tJoqw==
   dependencies:
     d3-shape "^1.0.6"
 
