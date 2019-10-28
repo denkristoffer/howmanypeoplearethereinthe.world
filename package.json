@@ -33,7 +33,7 @@
     "@types/node-fetch": "2.5.2",
     "@types/react": "16.9.10",
     "eslint": "6.6.0",
-    "now": "16.4.0",
+    "now": "16.4.3",
     "prettier": "1.18.2",
     "typescript": "3.6.4"
   }
