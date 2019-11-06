@@ -35,6 +35,6 @@
     "eslint": "6.6.0",
     "now": "16.4.4",
     "prettier": "1.18.2",
-    "typescript": "3.6.4"
+    "typescript": "3.7.2"
   }
 }
