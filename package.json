@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/preset-typescript": "7.7.2",
     "@denkristoffer/eslint-config": "4.0.0",
-    "@types/node": "10.17.4",
+    "@types/node": "10.17.5",
     "@types/node-fetch": "2.5.3",
     "@types/react": "16.9.11",
     "eslint": "6.6.0",
