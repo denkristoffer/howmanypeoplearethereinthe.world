@@ -1183,6 +1183,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
 
+"@types/lodash@^4.14.146":
+  version "4.14.149"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.149.tgz#1342d63d948c6062838fbf961012f74d4e638440"
+  integrity sha512-ijGqzZt/b7BfzcK9vTrS6MFljQRPn5BFWOx8oE0GYxribu6uV+aA9zZuXI1zc/etK9E8nrgdoF2+LgUw7+9tJQ==
+
 "@types/node-fetch@2.5.4":
   version "2.5.4"
   resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.5.4.tgz#5245b6d8841fc3a6208b82291119bc11c4e0ce44"
@@ -1205,7 +1210,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.1.tgz#f1a11e7babb0c3cad68100be381d1e064c68f1f6"
   integrity sha512-CFzn9idOEpHrgdw8JsoTkaDDyRWk1jrzIV8djzcgpq0y9tG4B4lFT+Nxh52DVpDXV+n4+NPNv7M1Dj5uMp6XFg==
 
-"@types/react@16.9.19":
+"@types/react@*", "@types/react@16.9.19":
   version "16.9.19"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.19.tgz#c842aa83ea490007d29938146ff2e4d9e4360c40"
   integrity sha512-LJV97//H+zqKWMms0kvxaKYJDG05U2TtQB3chRLF8MPNs+MQh/H1aGlyDUxjaHvu08EAGerdX2z4LTBc7ns77A==
@@ -1283,14 +1288,16 @@
   resolved "https://registry.yarnpkg.com/@vx/point/-/point-0.0.192.tgz#1576c64c2ed567ee03972258aa6a621c7fcdd789"
   integrity sha512-kIWYZcTvw95bCD5A4dsyqJYn9oDJxvKuw+DBjp3/X/m7+IAQ6rpo41MkDDjFFyu7napZJM6h3xwxj8SxOyJGmw==
 
-"@vx/responsive@^0.0.192":
-  version "0.0.192"
-  resolved "https://registry.yarnpkg.com/@vx/responsive/-/responsive-0.0.192.tgz#721d032bec38b9e3ff5fde2e4d5d8ee5a81cc517"
-  integrity sha512-HaXVwhSJXUfRbzRV+glxsX0ki2Hi1mdpz42iuGArVQgDPJEmBHjkXyoiXU8U6v66M7FAH+OyKgtc5j2bfhyYzA==
+"@vx/responsive@^0.0.193":
+  version "0.0.193"
+  resolved "https://registry.yarnpkg.com/@vx/responsive/-/responsive-0.0.193.tgz#bde9756dbe0423014120e1e5db7df2d08563de4f"
+  integrity sha512-Dw3v/tZFOxVXIjWVIX7eSHSyr+67gTTphtWoZitGxAKj3xEweTsTZiGhuC3Kqi/Ux1y1/sm0vbOSgzahglPD1g==
   dependencies:
+    "@types/lodash" "^4.14.146"
+    "@types/react" "*"
     lodash "^4.17.10"
     prop-types "^15.6.1"
-    resize-observer-polyfill "1.5.0"
+    resize-observer-polyfill "1.5.1"
 
 "@vx/scale@^0.0.192":
   version "0.0.192"
@@ -6071,10 +6078,10 @@ reserved-words@^0.1.2:
   resolved "https://registry.yarnpkg.com/reserved-words/-/reserved-words-0.1.2.tgz#00a0940f98cd501aeaaac316411d9adc52b31ab1"
   integrity sha1-AKCUD5jNUBrqqsMWQR2a3FKzGrE=
 
-resize-observer-polyfill@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.0.tgz#660ff1d9712a2382baa2cad450a4716209f9ca69"
-  integrity sha512-M2AelyJDVR/oLnToJLtuDJRBBWUGUvvGigj1411hXhAdyFWqMaqHp7TixW3FpiLuVaikIcR1QL+zqoJoZlOgpg==
+resize-observer-polyfill@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-from@^3.0.0:
   version "3.0.0"
