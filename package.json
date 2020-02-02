@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@vx/curve": "^0.0.192",
+    "@vx/curve": "^0.0.193",
     "@vx/glyph": "^0.0.192",
     "@vx/responsive": "^0.0.193",
     "@vx/scale": "^0.0.192",
