@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@vx/curve": "^0.0.193",
-    "@vx/glyph": "^0.0.192",
+    "@vx/glyph": "^0.0.193",
     "@vx/responsive": "^0.0.193",
     "@vx/scale": "^0.0.192",
     "@vx/shape": "^0.0.193",

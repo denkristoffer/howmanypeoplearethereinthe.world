@@ -1283,22 +1283,17 @@
     "@types/d3-shape" "^1.3.1"
     d3-shape "^1.0.6"
 
-"@vx/glyph@^0.0.192":
-  version "0.0.192"
-  resolved "https://registry.yarnpkg.com/@vx/glyph/-/glyph-0.0.192.tgz#8f8e62771418d10f0cfa4bfac9f991481978e29e"
-  integrity sha512-wne/fuuaQqp17yB3keqTGPURXlf7ejDQ6xJJA0gIgTtwcwA7mHEWpAbtSCxtrSUiQgmfqC6KMBZgC84UcSDanA==
+"@vx/glyph@^0.0.193":
+  version "0.0.193"
+  resolved "https://registry.yarnpkg.com/@vx/glyph/-/glyph-0.0.193.tgz#8e45f6a3af6da73353114656315210fe8411b378"
+  integrity sha512-zzQnOyO67FZdHvNRodqAn2SsmKd5dmuWwo815DWOo+4DdEZk5birQQnRbeIjhCHXWmo58wg56uVnEQCphmzxJA==
   dependencies:
-    "@vx/group" "0.0.192"
+    "@types/classnames" "^2.2.9"
+    "@types/d3-shape" "^1.3.1"
+    "@types/react" "*"
+    "@vx/group" "0.0.193"
     classnames "^2.2.5"
     d3-shape "^1.2.0"
-    prop-types "^15.6.2"
-
-"@vx/group@0.0.192":
-  version "0.0.192"
-  resolved "https://registry.yarnpkg.com/@vx/group/-/group-0.0.192.tgz#c528afc3ae07ad55ae4dc1fe46e4beee9e99e840"
-  integrity sha512-QMrJWDiIf9xW06yjJRL1xNDwTx6Kq1+gRPLMFLWlieltQfKcqleKJFTlS5hSJB0V7hiA+UrMpqpBYYH54AT5JQ==
-  dependencies:
-    classnames "^2.2.5"
     prop-types "^15.6.2"
 
 "@vx/group@0.0.193":
