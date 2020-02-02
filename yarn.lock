@@ -1183,12 +1183,24 @@
   resolved "https://registry.yarnpkg.com/@types/d3-path/-/d3-path-1.0.8.tgz#48e6945a8ff43ee0a1ce85c8cfa2337de85c7c79"
   integrity sha512-AZGHWslq/oApTAHu9+yH/Bnk63y9oFOMROtqPAtxl5uB6qm1x2lueWdVEjsjjV3Qc2+QfuzKIwIR5MvVBakfzA==
 
+"@types/d3-scale@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@types/d3-scale/-/d3-scale-2.1.1.tgz#405e58771ec6ae7b8f7b4178ee1887620759e8f7"
+  integrity sha512-kNTkbZQ+N/Ip8oX9PByXfDLoCSaZYm+VUOasbmsa6KD850/ziMdYepg/8kLg2plHzoLANdMqPoYQbvExevLUHg==
+  dependencies:
+    "@types/d3-time" "*"
+
 "@types/d3-shape@^1.3.1":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@types/d3-shape/-/d3-shape-1.3.2.tgz#a41d9d6b10d02e221696b240caf0b5d0f5a588ec"
   integrity sha512-LtD8EaNYCaBRzHzaAiIPrfcL3DdIysc81dkGlQvv7WQP3+YXV7b0JJTtR1U3bzeRieS603KF4wUo+ZkJVenh8w==
   dependencies:
     "@types/d3-path" "*"
+
+"@types/d3-time@*":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@types/d3-time/-/d3-time-1.0.10.tgz#d338c7feac93a98a32aac875d1100f92c7b61f4f"
+  integrity sha512-aKf62rRQafDQmSiv1NylKhIMmznsjRN+MnXRXTqHoqm0U/UZzVpdrtRnSIfdiLS616OuC1soYeX1dBg2n1u8Xw==
 
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
@@ -1317,11 +1329,12 @@
     prop-types "^15.6.1"
     resize-observer-polyfill "1.5.1"
 
-"@vx/scale@^0.0.192":
-  version "0.0.192"
-  resolved "https://registry.yarnpkg.com/@vx/scale/-/scale-0.0.192.tgz#4e13b6eea852de37cd3c95a7c91ed744f63f5692"
-  integrity sha512-jcRtgHzNI1YgQStxn87xgmRUD5RRAalIlswlMgcs6PnJlU4AhJIbvyzOOogWUi+Va/GY6omIVEdK9WpRqsxQPg==
+"@vx/scale@^0.0.193":
+  version "0.0.193"
+  resolved "https://registry.yarnpkg.com/@vx/scale/-/scale-0.0.193.tgz#4bc3770ca887a38c6a9bd70d8d4e2aa77eadf306"
+  integrity sha512-p1pbCB/+w5CzpDgn4eiaq/vq7rm8mORZxRQuLgk8sBhTdphFyczBdNG8Xr+HDIjNrAsJJLArDuiqQfEy/3ChNQ==
   dependencies:
+    "@types/d3-scale" "^2.1.1"
     d3-scale "^2.2.2"
 
 "@vx/shape@^0.0.193":
