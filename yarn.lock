@@ -1361,10 +1361,10 @@
     prop-types "^15.6.1"
     resize-observer-polyfill "1.5.1"
 
-"@vx/scale@^0.0.194":
-  version "0.0.194"
-  resolved "https://registry.yarnpkg.com/@vx/scale/-/scale-0.0.194.tgz#b056cf3f46bd2123664755088a5572cfeda35647"
-  integrity sha512-FKWFbBaHeqc/xNi5RIzZQBVJsypYQFfiYE4U9aYjrlgrxPrZG3+7jBA9bTdnTfhhmA9R9kWW2fKDpCEMDlEbwQ==
+"@vx/scale@^0.0.195":
+  version "0.0.195"
+  resolved "https://registry.yarnpkg.com/@vx/scale/-/scale-0.0.195.tgz#28bb2ff6663444a9709d1f99e4e4843d7e2f26ba"
+  integrity sha512-aZ2N+YVB6k9um7jzOQY9h/BaV/5vTA8DeuWjqMmeuJCTkX3NzJqu+/oWQRwOcMr/07rAPLf/0YUVEGE50OTEFQ==
   dependencies:
     "@types/d3-scale" "^2.1.1"
     d3-scale "^2.2.2"
