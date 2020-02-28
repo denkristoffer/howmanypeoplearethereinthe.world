@@ -16,7 +16,7 @@
   "dependencies": {
     "@vx/curve": "^0.0.194",
     "@vx/glyph": "^0.0.194",
-    "@vx/responsive": "^0.0.194",
+    "@vx/responsive": "^0.0.195",
     "@vx/scale": "^0.0.194",
     "@vx/shape": "^0.0.194",
     "isomorphic-unfetch": "3.0.0",
