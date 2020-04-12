@@ -2,7 +2,6 @@
   "env": {
     "DATA_URL": "@data_url"
   },
-  "name": "hmpatitw",
   "regions": ["sfo1"],
   "routes": [
     {

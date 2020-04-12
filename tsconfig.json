@@ -10,8 +10,8 @@
     "moduleResolution": "node",
     "noEmit": true,
     "resolveJsonModule": true,
+    "skipLibCheck": true,
     "strict": true,
-    "target": "es5",
-    "skipLibCheck": true
+    "target": "es5"
   }
 }

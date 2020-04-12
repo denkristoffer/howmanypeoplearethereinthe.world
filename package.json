@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "scripts": {
     "deploy": "yarn now",
@@ -14,23 +14,16 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@vx/curve": "^0.0.195",
-    "@vx/glyph": "^0.0.195",
-    "@vx/responsive": "^0.0.195",
-    "@vx/scale": "^0.0.195",
-    "@vx/shape": "^0.0.195",
-    "isomorphic-unfetch": "3.0.0",
-    "next": "9.3.4",
+    "next": "9.3.5-canary.8",
     "node-fetch": "2.6.0",
-    "polished": "^3.5.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-jsx": "3.2.5"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "7.9.0",
     "@denkristoffer/eslint-config": "4.0.0",
-    "@types/node": "10.17.19",
-    "@types/node-fetch": "2.5.5",
+    "@types/node": "12.12.35",
+    "@types/node-fetch": "2.5.6",
     "@types/react": "16.9.34",
     "eslint": "6.8.0",
     "now": "17.1.1",

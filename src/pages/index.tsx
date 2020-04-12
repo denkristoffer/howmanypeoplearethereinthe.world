@@ -1,5 +1,5 @@
 import React from "react";
-import { NextComponentType, NextPageContext } from "next";
+import { GetServerSideProps, NextComponentType, NextPageContext } from "next";
 import Head from "next/head";
 
 import Counter from "../components/counter";
@@ -68,18 +68,18 @@ const Index: NextComponentType<
   );
 };
 
-Index.getInitialProps = async ({ req: request }) => {
-  if (request) {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const fetch = require("node-fetch");
-    const baseUrl = `http://${request.headers.host}`;
-    const data = await fetch(`${baseUrl}/api/data`);
-    const json = await data.json();
+export const getServerSideProps: GetServerSideProps =  async ({ req: request }) => {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const fetch = require("node-fetch");
+  const baseUrl = `http://${request.headers.host}`;
+  const data = await fetch(`${baseUrl}/api/data`);
+  const json = await data.json();
 
-    return {
+  return {
+    props: {
       ...json,
-    };
-  }
+    }
+  };
 };
 
 export default Index;
