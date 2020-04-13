@@ -31,4 +31,3 @@ yarn-error.log*
 .env.production.local
 
 .now
-data.json
