@@ -18,6 +18,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: yarn install, build, and typecheck
       run: |
+        cd howmanypeoplearethereinthe.world
         yarn install --frozen-lockfile
         yarn build
         yarn typecheck
