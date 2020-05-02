@@ -1,22 +1,20 @@
 import React, { useEffect, useState } from "react";
-import { NextComponentType, NextPageContext } from "next";
 
 const formatter = new Intl.NumberFormat("fr-FR");
 const localizeNumber = (number: number): string => {
   return formatter.format(number);
 };
 
-export interface CounterProps extends React.HTMLProps<HTMLSpanElement> {
-  children?: never;
+interface CounterProps extends React.HTMLProps<HTMLSpanElement> {
   rate: number;
   value: number;
 }
 
-const Counter: NextComponentType<NextPageContext, {}, CounterProps> = ({
+const Counter = ({
   rate,
   value: originalValue,
   ...props
-}) => {
+}: CounterProps): React.ReactElement => {
   const [value, setValue] = useState(originalValue);
 
   useEffect(() => {

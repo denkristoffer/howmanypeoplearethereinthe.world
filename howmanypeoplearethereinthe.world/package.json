@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "next": "9.3.5-canary.8",
+    "next": "9.3.6",
     "node-fetch": "2.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
