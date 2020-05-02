@@ -12,4 +12,4 @@ A live projection of the number of people alive in the world.
 
 ## Local development
 
-Start the development server with `yarn now dev`.
+Start the development server with `yarn dev`.
