@@ -1,7 +1,4 @@
 {
-  "env": {
-    "DATA_URL": "@data_url"
-  },
   "regions": ["sfo1"],
   "routes": [
     {
