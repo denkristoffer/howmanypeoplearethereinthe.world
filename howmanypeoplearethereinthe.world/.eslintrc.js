@@ -1,6 +1,7 @@
 module.exports = {
-  env: {
-    "node": true
+  extends: "@denkristoffer/eslint-config",
+  parserOptions: {
+    tsconfigRootDir: __dirname,
   },
-  extends: "@denkristoffer/eslint-config"
-}
+  root: true,
+};

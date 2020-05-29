@@ -4,6 +4,7 @@ import Head from "next/head";
 
 import Counter from "../components/counter";
 import { PopulationData } from "./api/data";
+import type { Fetch } from "../lib/types";
 
 interface IndexProps {
   population: PopulationData["population"];
@@ -67,11 +68,15 @@ const Index = ({ population, rate }: IndexProps): React.ReactElement => {
 export const getServerSideProps: GetServerSideProps = async ({
   req: request,
 }) => {
+  if (!request.headers.host) {
+    throw new Error("Host header not set");
+  }
+
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const fetch = require("node-fetch");
+  const fetch = require("node-fetch") as Fetch;
   const baseUrl = `http://${request.headers.host}`;
   const data = await fetch(`${baseUrl}/api/data`);
-  const json = await data.json();
+  const json = (await data.json()) as PopulationData;
 
   return {
     props: {
