@@ -17,8 +17,8 @@ interface RawData {
 
 const getData = async (): Promise<RawData> =>
   fetch(dataUrl)
-    .then(response => response.text())
-    .then(data => JSON.parse(data));
+    .then((response) => response.text())
+    .then((data) => JSON.parse(data) as RawData);
 
 export interface PopulationData {
   lastUpdated: string;
@@ -42,7 +42,7 @@ const extractData = (data: RawData): PopulationData => {
 
 export default async (
   _request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse
 ): Promise<void> => {
   try {
     const rawData = await getData();
