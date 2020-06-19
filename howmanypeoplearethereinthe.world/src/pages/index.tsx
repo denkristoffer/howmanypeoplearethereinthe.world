@@ -11,7 +11,10 @@ interface IndexProps {
   rate: PopulationData["rate"];
 }
 
-const Index = ({ population, rate }: IndexProps): React.ReactElement => {
+export default function Index({
+  population,
+  rate,
+}: IndexProps): React.ReactElement {
   return (
     <>
       <Head>
@@ -63,7 +66,7 @@ const Index = ({ population, rate }: IndexProps): React.ReactElement => {
       </div>
     </>
   );
-};
+}
 
 export const getServerSideProps: GetServerSideProps = async ({
   req: request,
@@ -84,5 +87,3 @@ export const getServerSideProps: GetServerSideProps = async ({
     },
   };
 };
-
-export default Index;
