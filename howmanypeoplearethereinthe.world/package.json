@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "lint": "eslint --ext .ts,.tsx .",
+    "lint": "eslint .",
     "start": "next start",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
@@ -20,11 +20,11 @@
     "styled-jsx": "3.3.0"
   },
   "devDependencies": {
-    "@denkristoffer/eslint-config": "6.0.0",
+    "@denkristoffer/eslint-config": "https://github.com/denkristoffer/eslint-config",
     "@types/node": "12.12.47",
     "@types/node-fetch": "2.5.7",
     "@types/react": "16.9.38",
-    "eslint": "6.8.0",
+    "eslint": "7.2.0",
     "prettier": "2.0.5",
     "typescript": "3.9.5"
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-class DocumentWithLang extends Document {
+export default class DocumentWithLang extends Document {
   render(): JSX.Element {
     return (
       <Html lang="en">
@@ -14,5 +14,3 @@ class DocumentWithLang extends Document {
     );
   }
 }
-
-export default DocumentWithLang;
