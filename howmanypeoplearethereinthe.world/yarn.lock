@@ -1022,9 +1022,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@denkristoffer/eslint-config@https://github.com/denkristoffer/eslint-config":
+"@denkristoffer/eslint-config@7.0.0":
   version "7.0.0"
-  resolved "https://github.com/denkristoffer/eslint-config#76285b942903f1e51b7051890bbdd3dffc2b6c91"
+  resolved "https://registry.yarnpkg.com/@denkristoffer/eslint-config/-/eslint-config-7.0.0.tgz#d9ae47cc729b241ead178b6bb5e6e123fe1c1600"
+  integrity sha512-+SD62i3oTA6frmZe2uvcJHraojH+yHqB+86u1/7ZcR4xvFhStOvXdnUV/pV0dQYc3DlASV7yxhtTRa6tcvHQsw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^3.0.2"
     "@typescript-eslint/parser" "^3.0.2"
