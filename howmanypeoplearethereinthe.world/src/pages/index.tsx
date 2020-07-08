@@ -11,7 +11,7 @@ interface IndexProps {
   rate: PopulationData["rate"];
 }
 
-export default function Index({
+export default function IndexPage({
   population,
   rate,
 }: IndexProps): React.ReactElement {

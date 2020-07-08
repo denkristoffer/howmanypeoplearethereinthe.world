@@ -10,11 +10,11 @@ interface CounterProps extends React.HTMLProps<HTMLSpanElement> {
   value: number;
 }
 
-const Counter = ({
+export default function Counter({
   rate,
   value: originalValue,
   ...props
-}: CounterProps): React.ReactElement => {
+}: CounterProps): React.ReactElement {
   const [value, setValue] = useState(originalValue);
 
   useEffect(() => {
@@ -40,6 +40,4 @@ const Counter = ({
       `}</style>
     </span>
   );
-};
-
-export default Counter;
+}
