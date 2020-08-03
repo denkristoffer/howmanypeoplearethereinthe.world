@@ -23,7 +23,7 @@
     "@denkristoffer/eslint-config": "7.5.0",
     "@types/node": "12.12.53",
     "@types/node-fetch": "2.5.7",
-    "@types/react": "16.9.43",
+    "@types/react": "16.9.44",
     "eslint": "7.6.0",
     "prettier": "2.0.5",
     "typescript": "3.9.7"
