@@ -17,7 +17,7 @@
     "node-fetch": "2.6.1",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "styled-jsx": "3.3.0"
+    "styled-jsx": "3.3.1"
   },
   "devDependencies": {
     "@denkristoffer/eslint-config": "7.5.0",
