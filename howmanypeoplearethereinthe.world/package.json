@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@denkristoffer/eslint-config": "7.5.0",
-    "@types/node": "12.19.2",
+    "@types/node": "12.19.3",
     "@types/node-fetch": "2.5.7",
     "@types/react": "16.9.55",
     "eslint": "7.12.1",
