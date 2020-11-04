@@ -4,4 +4,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   root: true,
+  rules: {
+    "jest/no-deprecated-functions": "off",
+  },
 };
