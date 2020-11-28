@@ -63,6 +63,14 @@ export default function IndexPage({
             margin: 10px 0 0;
           }
         `}</style>
+
+        {typeof window !== "undefined" &&
+        window.location.host === "howmanypeoplearethereinthe.world" ? (
+          <img
+            alt=""
+            src="https://howmanypeoplearethereintheworld.goatcounter.com/count?p=/"
+          />
+        ) : null}
       </div>
     </>
   );
