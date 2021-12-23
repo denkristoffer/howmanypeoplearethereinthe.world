@@ -1,5 +1,4 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import fetch from "node-fetch";
 
 if (!process.env.DATA_URL) {
   throw new Error("Missing ENV var");
