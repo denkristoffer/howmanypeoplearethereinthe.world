@@ -1,19 +1,14 @@
 import React from "react";
-import { GetServerSideProps } from "next";
+import type { InferGetStaticPropsType } from "next";
 import Head from "next/head";
 
 import Counter from "../components/counter";
 import { PopulationData } from "./api/data";
 
-interface IndexProps {
-  population: PopulationData["population"];
-  rate: PopulationData["rate"];
-}
-
-export default function IndexPage({
+export default function Index({
   population,
   rate,
-}: IndexProps): React.ReactElement {
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
       <Head>
@@ -75,20 +70,15 @@ export default function IndexPage({
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({
-  req: request,
-}) => {
-  if (!request.headers.host) {
-    throw new Error("Host header not set");
+export const getStaticProps = async () => {
+  if (!process.env.ROOT_URL) {
+    throw new Error("ROOT_URL ENV var not set");
   }
 
-  const baseUrl = `http://${request.headers.host}`;
-  const data = await fetch(`${baseUrl}/api/data`);
-  const json = (await data.json()) as PopulationData;
+  const response = await fetch(`${process.env.ROOT_URL}/api/data`);
+  const data = (await response.json()) as PopulationData;
 
   return {
-    props: {
-      ...json,
-    },
+    props: data,
   };
 };
