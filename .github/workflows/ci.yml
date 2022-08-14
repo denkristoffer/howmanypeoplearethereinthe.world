@@ -2,6 +2,9 @@ name: CI
 
 on: [push]
 
+env:
+  ROOT_URL: http://localhost:3000
+
 jobs:
   build:
     runs-on: ubuntu-latest
