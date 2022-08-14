@@ -4,7 +4,7 @@ A live projection of the number of people alive in the world.
 
 ## Installation
 
-`yarn`
+`npm i`
 
 ## Required ENV vars
 
@@ -12,4 +12,4 @@ A live projection of the number of people alive in the world.
 
 ## Local development
 
-Start the development server with `yarn dev`.
+Start the development server with `npm run-script dev`.
