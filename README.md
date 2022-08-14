@@ -9,6 +9,7 @@ A live projection of the number of people alive in the world.
 ## Required ENV vars
 
 - `DATA_URL`: URL to fetch raw data from.
+- `ROOT_URL`: Domain to point to for the API route.
 
 ## Local development
 
