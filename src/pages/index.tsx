@@ -55,6 +55,10 @@ export default function Index({
             margin: auto auto 0 auto;
             text-align: center;
           }
+
+          img {
+            display: none;
+          }
         `}</style>
 
         <Credits />
