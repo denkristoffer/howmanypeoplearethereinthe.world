@@ -3,7 +3,8 @@ import type { InferGetStaticPropsType } from "next";
 import Head from "next/head";
 
 import Counter from "../components/counter";
-import { PopulationData } from "./api/data";
+import Credits from "../components/credits";
+import type { PopulationData } from "./api/data";
 
 export default function Index({
   population,
@@ -19,19 +20,19 @@ export default function Index({
         />
       </Head>
 
-      <div>
-        <span>There are an estimated</span>
-        <Counter className="counter" rate={rate} value={population} />
-        <span>people in the world.</span>
+      <div className="root">
+        <div>
+          <div>There are an estimated</div>
+          <Counter className="counter" rate={rate} value={population} />
+          <div>people in the world.</div>
+        </div>
 
         <style global jsx>{`
           body {
             background: #fff;
             box-sizing: border-box;
             color: #080808;
-            font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial,
-              sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-              "Segoe UI Symbol";
+            font-family: system-ui, sans-serif;
             margin: 0;
             padding: 0;
           }
@@ -44,19 +45,19 @@ export default function Index({
           }
         `}</style>
         <style jsx>{`
-          div {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
+          .root {
+            display: grid;
             height: 100vh;
-            justify-content: center;
-            width: 100vw;
+            place-items: center;
           }
 
-          .counter {
-            margin: 10px 0 0;
+          .root > div {
+            margin: auto auto 0 auto;
+            text-align: center;
           }
         `}</style>
+
+        <Credits />
 
         {typeof window !== "undefined" &&
         window.location.host === "howmanypeoplearethereinthe.world" ? (
