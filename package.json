@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@denkristoffer/eslint-config": "9.0.0",
-    "@types/node": "16.11.48",
+    "@types/node": "16.11.63",
     "@types/react": "18.0.21",
     "eslint": "8.24.0",
     "prettier": "2.7.1",
