@@ -1,22 +1,11 @@
 import React from "react";
 
+import styles from "./credits.module.css";
+
 export default function Credits() {
   return (
-    <>
-      <a href="https://kristoffer.is">made by kristoffer</a>
-
-      <style jsx>{`
-        a {
-          font-size: 15px;
-          margin: auto auto 5px auto;
-        }
-
-        @media (prefers-color-scheme: dark) {
-          a {
-            color: #4a92f7;
-          }
-        }
-      `}</style>
-    </>
+    <a className={styles.a} href="https://kristoffer.is">
+      made by kristoffer
+    </a>
   );
 }

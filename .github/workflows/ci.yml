@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 env:
-  ROOT_URL: https://howmanypeoplearethereinthe.world
+  DATA_URL: https://howmanypeoplearethereinthe.world
 
 jobs:
   build:
@@ -22,7 +22,6 @@ jobs:
       - name: npm install, build, lint and typecheck
         run: |
           npm ci
-          npm run-script build
           npm run-script lint
           npm run-script typecheck
         env:

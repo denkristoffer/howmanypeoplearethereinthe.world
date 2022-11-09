@@ -1,4 +1,8 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
+
+import styles from "./counter.module.css";
 
 const formatter = new Intl.NumberFormat("fr-FR");
 const localizeNumber = (number: number): string => {
@@ -29,15 +33,8 @@ export default function Counter({
   const displayValue = localizeNumber(value);
 
   return (
-    <span {...props}>
+    <span className={styles.root} {...props}>
       {displayValue}
-
-      <style jsx>{`
-        span {
-          font-size: calc(48px + 104 * (100vw - 320px) / 1728);
-          font-variant-numeric: tabular-nums;
-        }
-      `}</style>
     </span>
   );
 }
