@@ -1,0 +1,4 @@
+.root {
+  font-size: calc(48px + 104 * (100vw - 320px) / 1728);
+  font-variant-numeric: tabular-nums;
+}

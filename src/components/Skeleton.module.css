@@ -1,0 +1,15 @@
+.root {
+  height: calc(48px + 104 * (100vw - 320px) / 1728);
+  margin: 20px 0;
+  width: 50vw;
+}
+
+.rect {
+  fill: url(#light)
+}
+
+@media (prefers-color-scheme: dark) {
+  .rect {
+    fill: url(#dark)
+  }
+}

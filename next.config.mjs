@@ -1,7 +1,8 @@
+/** @type {import('next').NextConfig} */
 export default {
-  i18n: {
-    defaultLocale: "en",
-    localeDetection: false,
-    locales: ["en"],
+  experimental: {
+    appDir: true,
   },
+  reactStrictMode: true,
+  swcMinify: true,
 };
