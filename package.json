@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@denkristoffer/eslint-config": "9.0.0",
-    "@types/node": "16.18.3",
+    "@types/node": "18.11.17",
     "@types/react": "18.0.26",
     "eslint": "8.30.0",
     "prettier": "2.8.1",
