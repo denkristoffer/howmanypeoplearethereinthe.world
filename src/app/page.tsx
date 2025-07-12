@@ -36,6 +36,8 @@ async function getData() {
     throw new Error("Missing URL");
   }
 
+  console.log(process.env.DATA_URL)
+
   const data = await fetch(process.env.DATA_URL)
     .then((response) => response.text())
     .then((data) => JSON.parse(data) as RawData);

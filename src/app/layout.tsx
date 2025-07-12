@@ -26,7 +26,7 @@ export default function Layout({ children }: LayoutProps) {
           <Credits />
 
           {typeof window !== "undefined" &&
-          window.location.host === "howmanypeoplearethereinthe.world" ? (
+          window.location.host === "howmanypeoplearethereintheworld.com" ? (
             <img
               className={styles.img}
               alt=""
