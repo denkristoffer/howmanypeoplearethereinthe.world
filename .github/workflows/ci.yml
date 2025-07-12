@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 env:
-  DATA_URL: https://howmanypeoplearethereinthe.world
+  DATA_URL: https://howmanypeoplearethereintheworld.com
 
 jobs:
   build:
